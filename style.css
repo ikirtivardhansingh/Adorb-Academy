@@ -1,0 +1,84 @@
+        @media only screen and (max-width: 600px) {
+            body {
+                width: 100%;
+                height: 5em;
+            }
+            .header {
+                width: 100%;
+                height: 5em;
+                margin: 0;
+                background-color: rgb(196, 196, 196);
+                box-shadow: gray 5px 5px 30px;
+            }
+            h1 {
+                margin-left: 3.5em;
+                position: absolute;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 25px;
+                color: #5538C8;
+                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+            }
+            h2 {
+                display: block;
+                margin: 20px;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 25px;
+            }
+            h3 {
+                margin: 20px;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 15px;
+            }
+            .logo {
+                width: 70px;
+                height: 70px;
+                position: absolute;
+            }
+            h2 {}
+            body {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        
+        @media only screen and (max-width: 1400px) {
+            body {
+                width: 100%;
+                height: 5em;
+            }
+            .header {
+                width: 100%;
+                height: 8em;
+                margin: 0;
+                background-color: rgb(196, 196, 196);
+                box-shadow: gray 5px 5px 30px;
+            }
+            h1 {
+                margin-left: 3.5em;
+                position: absolute;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 45px;
+                color: #5538C8;
+                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+            }
+            h2 {
+                display: block;
+                margin: 20px;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 45px;
+            }
+            h3 {
+                margin: 20px;
+                font-family: 'Poppins', sans-serif, bold;
+                font-size: 20px;
+            }
+            .logo {
+                width: 130px;
+                height: 130px;
+                position: absolute;
+            }
+            body {
+                padding: 0;
+                margin: 0;
+            }
+        }
