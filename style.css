@@ -1,157 +1,232 @@
-        @media only screen and (max-width: 600px) {
-            body {
-                width: 100%;
-                height: 5em;
-            }
-            .header {
-                width: 100%;
-                height: 5em;
-                margin: 0;
-                background-color: rgb(196, 196, 196);
-                box-shadow: gray 5px 5px 30px;
-            }
-            h1 {
-                margin-left: 3.5em;
-                position: absolute;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 25px;
-                color: #5538C8;
-                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
-            }
-            h2 {
-                display: block;
-                margin: 20px;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 25px;
-            }
-            h3 {
-                margin: 20px;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 15px;
-            }
-            .logo {
-                width: 70px;
-                height: 70px;
-                position: absolute;
-            }
-            h2 {}
-            .center {
-                text-align: center;
-            }
-            body {
-                padding: 0;
-                margin: 0;
-            }
-        }
-        
-        @media only screen and (max-width: 1400px) {
-            body {
-                width: 100%;
-                height: 5em;
-            }
-            .header {
-                width: 100%;
-                height: 8em;
-                margin: 0;
-                background-color: rgb(196, 196, 196);
-                box-shadow: gray 5px 5px 30px;
-            }
-            h1 {
-                margin-left: 3.5em;
-                position: absolute;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 45px;
-                color: #5538C8;
-                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
-            }
-            h2 {
-                display: block;
-                margin: 20px;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 45px;
-                color: rgba(187, 34, 7, 0.74);
-                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
-            }
-            h3 {
-                margin: 20px;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 30px;
-            }
-            h4 {
-                display: block;
-                margin-top: 150px;
-                font-family: 'Poppins', sans-serif, bold;
-                font-size: 35px;
-                color: rgba(85, 56, 200, 0.801);
-                text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
-            }
-            .button {
-                display: inline-block;
-                border-radius: 4px;
-                background-color: #f4511e;
-                border: none;
-                color: #FFFFFF;
-                text-align: center;
-                font-size: 28px;
-                padding: 20px;
-                width: 200px;
-                transition: all 0.5s;
-                cursor: pointer;
-                margin: 5px;
-            }
-            .button span {
-                cursor: pointer;
-                display: inline-block;
-                position: relative;
-                transition: 0.5s;
-            }
-            .button span:after {
-                content: '\00bb';
-                position: absolute;
-                opacity: 0;
-                top: 0;
-                right: -20px;
-                transition: 0.5s;
-            }
-            .button:hover span {
-                padding-right: 25px;
-            }
-            .button:hover span:after {
-                opacity: 1;
-                right: 0;
-            }
-            p1 {
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
-                font-weight: bold;
-                font-size: 15px;
-            }
-            .logo {
-                width: 130px;
-                height: 130px;
-                position: absolute;
-            }
-            .center {
-                text-align: center;
-            }
-            .paragraph-80 {
-                margin: 5%;
-                margin-top: 2%;
-                width: 60%;
-                float: left;
-                border-right: 6px;
-            }
-            .verticle-line {
-                border-right: 6px solid rgba(187, 34, 7, 0.74);
-                height: 450px;
-                margin-left: 2px;
-                box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
-            }
-            .right {
-                margin: 3%;
-                float: left;
-            }
-            body {
-                padding: 0;
-                margin: 0;
-            }
-        }
+@media only screen and (max-width: 1400px) {
+    body {
+        width: 100%;
+        height: 5em;
+    }
+    .header {
+        width: 100%;
+        height: 8em;
+        margin: 0;
+        background-color: rgb(196, 196, 196);
+        box-shadow: gray 5px 5px 30px;
+    }
+    h1 {
+        margin-left: 3.5em;
+        position: absolute;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 45px;
+        color: #5538C8;
+        text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    h2 {
+        display: block;
+        margin: 20px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 45px;
+        color: rgba(187, 34, 7, 0.74);
+        text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    h3 {
+        margin: 20px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 30px;
+    }
+    h4 {
+        display: block;
+        margin-top: 150px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 35px;
+        color: rgba(85, 56, 200, 0.801);
+        text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    .button:hover span {
+        padding-right: 25px;
+    }
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    p1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .logo {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+    }
+    .center {
+        text-align: center;
+    }
+    .paragraph-80 {
+        margin: 5%;
+        margin-top: 2%;
+        width: 60%;
+        float: left;
+        border-right: 6px;
+    }
+    .verticle-line {
+        border-right: 6px solid rgba(187, 34, 7, 0.74);
+        height: 450px;
+        margin-left: 2px;
+        box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    .right {
+        margin: 3%;
+        float: left;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 5em;
+    }
+    .header {
+        width: 100%;
+        height: 5em;
+        margin: 0;
+        background-color: rgb(196, 196, 196);
+        box-shadow: gray 5px 5px 30px;
+    }
+    h1 {
+        margin-left: 3.5em;
+        position: absolute;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 25px;
+        color: #5538C8;
+        text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    h2 {
+        display: block;
+        margin: 20px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 25px;
+    }
+    h3 {
+        margin: 20px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 15px;
+    }
+    .logo {
+        width: 80px;
+        height: auto;
+        position: absolute;
+    }
+    h2 {}
+    .center {
+        text-align: center;
+    }
+    h4 {
+        display: block;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif, bold;
+        font-size: 35px;
+        color: rgba(85, 56, 200, 0.801);
+        text-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    .button:hover span {
+        padding-right: 25px;
+    }
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    p1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .center {
+        text-align: center;
+    }
+    .paragraph-80 {
+        margin: 2;
+        margin-top: 2%;
+        width: auto;
+        float: left;
+        border-right: 6px;
+    }
+    .verticle-line {
+        border-right: 6px solid rgba(187, 34, 7, 0);
+        height: auto;
+        margin-left: 2px;
+        margin-bottom: px;
+        box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    .horizontal-line {
+        border-bottom: 6px solid rgba(187, 34, 7, 0.801);
+        width: 100%;
+        margin-left: 2px;
+        margin-top: 2px;
+        box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.473);
+    }
+    .right {}
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
