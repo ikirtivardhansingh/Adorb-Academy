@@ -137,10 +137,11 @@
         font-family: 'Poppins', sans-serif, bold;
         font-size: 25px;
     }
-    h3 {
+     h3 {
         margin: 20px;
         font-family: 'Poppins', sans-serif, bold;
-        font-size: 15px;
+        font-size: 30px;
+        color: yellowgreen;
     }
     .logo {
         width: 80px;
